@@ -3,7 +3,7 @@ public:
     //By Dutch National Flag Algorithm 
     void sortColors(vector<int>& nums) {
     int low=0,mid=0,high=nums.size()-1;
-        while(mid<high)
+        while(mid<=high)
         {   //Intitially LOW will be at 0 and High at end index.
             //MID variable will travrse the array.
             //If 0 is encountered while traversing
